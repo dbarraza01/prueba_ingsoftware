@@ -1,24 +1,14 @@
-# README
+# prueba_ingsoftware
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Aplicacion Rails minima con una ruta raiz que responde "Hello world".
 
-Things you may want to cover:
+## Ejecutar local
 
-* Ruby version
+```bash
+bin/setup
+bin/rails server
+```
 
-* System dependencies
+## Deploy
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+La app incluye endpoint de salud en `/up` para verificaciones de plataforma.
